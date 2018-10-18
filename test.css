@@ -3,14 +3,20 @@ body{
 	background-image: url('dark_wood.png');
 }
 
+div {
+    border: solid 8px black;
+}
+
 #Header{
 	width: 500px; 
 	margin-left: auto; 
 	margin-right: auto; 
 	margin-bottom: 10px; 
-	border: solid 8px black;
+    border-right: dashed 8px orange;
+    border-left: dashed 8px green;
 	text-align: center;
-	background-color: #8E41D5; 
+    background-color: #8E41D5; 
+   
 }
 
 h3{
@@ -38,7 +44,8 @@ p{
 #LeftNav{
 	float: left;
 	width: 400px;
-	border: solid 8px black;
+    border-top: dotted 8px red;
+    border-bottom: dotted 8px yellow;
 	text-align: center;
 	padding-bottom: 8px;
 	background-color: #8E41D5; 
@@ -64,7 +71,6 @@ ul{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	border: solid 8px black;
 	text-align: center;
 	background-color: #8E41D5;
 	padding: 15px;
@@ -73,7 +79,6 @@ ul{
 
 #Footer{
 	text-align: center;
-	border: solid 8px black;
 	background-color: #8E41D5;
 
 }

@@ -1,0 +1,57 @@
+body {
+    background-image: url('leaves-pattern.png')
+}
+
+div {
+    border: solid 8px black;
+}
+
+#Header{
+    width: 200 px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10 px;
+    border: solid 10px black;
+    border-radius: 8px;
+    text-align: center;
+    background-color: gray;
+    padding: 15px;
+}
+
+#Header h1{
+    size: 50px;
+    font-family: "Mali";
+    margin-bottom: 0px;
+}
+
+#LeftNav {
+    float: left;
+    padding 15px;
+    background-color: gray;
+    margin: 20px;
+    margin-right: 200px;
+
+}
+img {
+    border-radius: 20px;
+}
+
+#Content {
+    text-align: center;
+    background-color: gray;
+    font-family: "Mali";
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#Content ul{
+    list-style-type: none;
+}
+
+#Footer {
+    text-align: center;
+    background-color: gray;
+}
+
